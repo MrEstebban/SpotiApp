@@ -18,7 +18,7 @@ export class SpotifyService {
 
     const headers = new HttpHeaders(
       {
-        Authorization : 'Bearer ##################' // Replace with your spotify developer token
+        Authorization : 'Bearer ###'// Replace with your spotify developer token
       });
 
     return this.http.get(url, {headers});

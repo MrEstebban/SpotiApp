@@ -43,7 +43,7 @@
                     <td>{{cancion.album.name}}</td>
                     <td>{{cancion.name}}</td>
                     <td>
-                        <iframe [src]="cancion.album.id | domseguro:'https://open.spotify.com/embed/album/'" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                        <iframe [src]="cancion.id | domseguro:'https://open.spotify.com/embed/track/'" width="350" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </td>
                 </tr>
             </tbody>
