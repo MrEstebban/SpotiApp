@@ -2,6 +2,8 @@
 
 # Spotiapp
 
+This site allows you to see the trending and most recent songs uploaded on Spotify, also provides a search section to find any song that you want and that is available.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
 
 ## Development server
